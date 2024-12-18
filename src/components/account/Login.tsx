@@ -11,7 +11,7 @@ import { addUser } from '../../services/Api.js';
 const LoginScreen = ({ navigation }) => {
   useEffect(() => {
     GoogleSignin.configure({
-      webClientId: '117637354595-kajpmc7nr0dgmk0lj23jg13ak6cuhvqi.apps.googleusercontent.com', 
+      webClientId: '946307240012-o6ui91qj3tik2rdvgeoo0tdq99vipdtt.apps.googleusercontent.com', 
     });
   }, []);
 
