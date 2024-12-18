@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "946307240012",
+    "project_id": "nx-1-555da",
+    "storage_bucket": "nx-1-555da.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:946307240012:android:68b204c7df5a0e825e24e9",
+        "android_client_info": {
+          "package_name": "com.nx"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB30PYFZ_cYEQzHmMV7yBA8UvTzrLnY2uY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
