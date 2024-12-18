@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { View, Text, Button, StyleSheet } from 'react-native';
+import { View, Text, Button, StyleSheet, TouchableOpacity } from 'react-native';
 import { GoogleSignin } from '@react-native-google-signin/google-signin';
 
 const HomeScreen = ({ route, navigation }) => {
@@ -28,6 +28,9 @@ const HomeScreen = ({ route, navigation }) => {
     <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
       <Text style={{ fontSize: 20 }}>Welcome, {user.name}</Text>
       <Text>Email: {user.email}</Text>
+      <TouchableOpacity  onPress={handleSignOut}>
+          <Text >Logout</Text>
+        </TouchableOpacity>
     </View>
   );
 }

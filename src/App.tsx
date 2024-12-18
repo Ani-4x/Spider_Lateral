@@ -8,6 +8,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { NavigationContainer, NavigationIndependentTree } from '@react-navigation/native';
 import ChatScreen from './components/account/ChatScreen';
 
+
 const Stack = createNativeStackNavigator();
 
 function App(): React.JSX.Element {
@@ -19,6 +20,7 @@ function App(): React.JSX.Element {
           <Stack.Screen name="Login"
             component={Login} 
             options={{headerShown:false}}/>
+          
 
           <Stack.Screen name="HomeScreen"
             component={HomeScreen}
